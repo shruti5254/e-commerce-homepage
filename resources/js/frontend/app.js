@@ -6,7 +6,7 @@
 
 require('../bootstrap');
 require('../plugins');
-// require('./main');
+require('./main');
 
 import Vue from 'vue';
 // import 'owl.carousel';

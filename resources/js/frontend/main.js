@@ -1,11 +1,20 @@
-
 $('#header-carousel').owlCarousel({
+    // singleItem:true,
     loop:true,
-    margin:10,
+    margin:20,
     nav:true,
+    navText: [
+        "<img src='images/arrow-left.png'>",
+        "<img src='images/arrow-right.png'>"
+        
+    ],
+    
+    dots: true,
     mouseDrag:true,
-    autoplay:true,
+    autoplay:false,
     touchDrag:true,
+    slideSpeed:3000,
+    // paginationSpeed:400,
     responsive:{
         0:{
             items:1,
@@ -14,24 +23,15 @@ $('#header-carousel').owlCarousel({
             items:1,
         },
         1000:{
-            items:4,
+            items:1,
         }
     }
 })
 
 
-// $( document ).ready(function() {
-//     $('#menu').on("click",function(){
-//         $('.hide-content').toggleClass('hide');
-//         console.log("hello");
-//     })
-// });
 
-// const menu=document.querySelector("#menu");
-// const hidecontent=document.querySelector(".hide-content");
-
-// menu.addEventListener("click" =()=>{
-//    hidecontent.classList.toggle(".hide");
-//    console.log("hello");
-// })
-// console.log("hello");
+$( document ).ready(function() {
+    $('#menu').on("click",function(){
+        $('.nav_ul').toggleClass('nav_ul-toggle');
+    })
+});

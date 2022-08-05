@@ -48,7 +48,7 @@
                     font-size: 5rem;
                     width: 40px;
                     &:hover{
-                        background-color: transparent !important;
+                        background-color: none !important;
                         
                     }
                 }
@@ -60,6 +60,18 @@
         
             .owl-next {
                 right: 0;
+            }
+        }
+        .owl-dots{
+            position: absolute;
+            top: 90%;
+            align-items: center;
+            justify-content: center;
+            left: 20%;
+            right: 20%;
+            cursor: pointer;
+            .owl-dot{
+                color: #FFFFFF !important;
             }
         }
                
