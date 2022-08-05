@@ -1,0 +1,24 @@
+
+// Variables
+@import 'variables';
+
+
+@import "../global";
+@import "global";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+//owl carousel
+// @import 'owlCarousel/dist/assets/owlCarousel/owl.carousel.min.css';
+// @import 'owlCarousel/dist/assets/owlCarousel/owl.theme.default.min.css';
+//header
+@import "abstracts/mixins";
+@import "base/base";
+@import "header";
+@import "navbar";
+@import "carousel";
+@import "section";
+@import "footer";
+// mixins
+

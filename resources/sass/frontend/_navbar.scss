@@ -1,0 +1,218 @@
+// *{
+//     margin: 0; 
+//     padding: 0;
+//     box-sizing: border-box;
+// }
+.navbar{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 55px;
+    align-items: center;
+    justify-content: center;
+    background-color: $nav-blue;
+    opacity: 100%;
+  
+   
+
+    .navbar-menu{
+        position: relative;
+        line-height: 16px;
+        margin:  0.5rem;
+        height: 16px;
+        cursor: pointer;
+        @include respond (tab-portrait){
+            position: unset;
+        }
+        @include respond (tab-landscape) {
+            position: unset;
+        }
+                 
+            
+           
+
+        .nav_ul{
+            margin: 0;
+            padding: 0;
+            display: flex;
+            transition: .4s;
+            cursor: pointer;
+            @include respond(tab-landscape){
+                transform: translateX(-280%);
+                position: fixed;
+                width: 100%;
+                display: block;
+                // border: none;
+                // text-align: center;
+                text-align: left;
+                left:0;
+                // float: right;
+                transition: .3sec ease;
+                z-index: 10;
+                
+            }
+            
+            
+            
+            >.nav_li{
+                // position: relative;
+                list-style: none;
+                background-color: $nav-blue;
+                .megamenu{
+                    position: absolute;
+                    top: 226%;
+                    width: 100%;
+                    left: 0;
+                    text-align: center;
+                    background-color:  $nav-blue;
+                    opacity: 0;
+                    visibility: hidden;
+                    transition: 0.25s;
+                    cursor: pointer;
+                    z-index: 10;
+                    .megamenucategory{
+                        // width: 80%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        margin: 30px;
+                        padding: 10px;
+                        .column{
+                            flex-basis: 30%;
+                            padding: 0 0 30px 0;
+                            
+                        }
+                        
+                        h6{
+                            font-weight: bold;
+                            color: white;
+                            padding: 5px;
+                            text-align: center;
+                            margin: 0 15px 10px 0;
+                            
+                        }
+                        
+                        .mega_ul{
+                            // background: transparent;
+                            li{
+                                background: transparent;
+                                list-style: none;
+                                text-decoration: none;
+                                cursor: pointer;
+                                padding: 3px;
+                                
+                                a{
+                                    color: $body-bg-primary;
+                                    text-transform: capitalize;
+                                    text-align: center;
+                                    cursor: pointer;
+                                    padding: 0;
+                                    margin: 0 36px auto 0;
+                                }
+                                &:hover{
+                                    text-decoration: none;
+                                }
+                               
+                            }
+                        }
+                    }
+                }
+                
+                @include respond(tab-landscape){
+                    display: block;
+                    top: 0;
+                }
+                // .personal-hygine{
+                //     &:hover >.megamenu{
+                //         opacity: 1;
+                //         visibility: visible;
+                //     }
+                // }
+                >.personal-hygine{
+                    @include respond(tab-portrait){
+                        display: block;
+                        padding: 10px;
+                        font-size: 17px;
+                        font-weight: 55px;
+                        text-transform: uppercase;
+                    }
+                    color: $body-bg-primary;
+                    text-decoration: none;
+                    padding:  0 5px;
+                    margin: 0 4px;
+                    font-size: 12px;
+                    font-weight: 55px;
+                    text-transform: capitalize; 
+                    
+                    &:hover{
+                        background-color: #ECF2E7;
+                        color: $black-1;
+                    }
+                    
+                }
+                &:hover .megamenu{
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+            
+           
+
+    
+        }  
+        .nav_ul-toggle{
+            display: block;
+            width: 100vw;
+            height: 100vh;
+            position: absolute;
+            top: 55px;
+            left: 0;
+            cursor: pointer;
+            // border: none;
+            transform: translateX(0);
+            transition: transform 0.25s ease-in-out;
+           
+        } 
+        .hide-content{
+            display: none;
+            @include respond(tab-landscape){
+                display: block;
+                // padding-top: 20px;
+            }
+        
+            .bar{
+                @include respond(tab-landscape){
+                    display: block;
+                    height: 5px;
+                    width: 50px;
+                    background-color: #ffffff;
+                    border-radius: 5px;
+                    transition: all 0.3s ease;
+                }
+            
+            
+            }
+            #bar-1{
+                transform: translateY(-4px);
+            
+            }
+            #bar-3{
+                transform: translateY(4px);
+                
+            }
+            //  @include respond(tab-landscape){
+            //     display: flex;        
+            // }        
+            
+            
+        
+            
+        
+        } 
+        .hide-content:checked ~ .nav_ul{
+            transform: translateX(0%);
+        } 
+        
+    }
+    
+    
+}

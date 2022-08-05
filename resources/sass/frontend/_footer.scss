@@ -1,0 +1,137 @@
+
+.footer{
+    position: relative;
+    background-color: $footer-background ;
+    opacity: 100%;
+    margin: 0;
+    .logo-repeat{
+        color: $grey-primary !important; 
+        font-size: 20px;
+        font-weight: 55px;
+        opacity: 57%;
+    //   a{
+    //      color: $grey-primary !important;
+    //   }
+    }
+    .download{
+        a{
+            color:$grey-primary; 
+            font-size: 12px;
+            font-weight: 55px;
+            p{
+                margin-bottom: 0;
+                margin-left: 5px;
+            }
+        }
+    }
+    .aboutus{
+        >a{
+            color: $grey-primary;
+            opacity: 100%;
+            text-transform: uppercase;
+            font-size: 12px;
+            font-weight: 55px;
+        }
+    }
+    .quick-link{
+        color: $grey-primary;
+        opacity: 100%;
+        text-transform: capitalize;
+        font-size: 15px;
+        font-weight: 55px;
+        text-align: start;
+        ul{
+            padding: 0  !important;
+           
+            >li{
+                list-style: none;
+                >a{
+                    color: $grey-primary;
+                    opacity: 100%;
+                    text-transform: capitalize;
+                    font-size: 12px;
+                    font-weight: 55px;
+                }
+            }
+        }
+    }
+    .other-link{
+        color: $grey-primary;
+        text-align: start;
+        font-size: 15px;
+        font-weight: 55px;
+        ul{
+            padding: 0 !important;
+            >li{
+                list-style: none;
+                >a{
+                    color: $grey-primary;
+                    opacity: 100%;
+                    text-transform: capitalize;
+                    font-size: 12px;
+                    font-weight: 55px;
+                    
+                }
+            }
+        }
+    }
+    .contactus{
+       color: $grey-primary !important;
+       
+        .phn-num{
+            text-align: start;
+            opacity: 100%;
+            text-transform: capitalize;
+            // font-size: 10px;
+            // font-weight: 55px;
+            
+                
+            
+        }
+        .mail{
+            opacity: 100%;
+            text-transform: capitalize;
+            text-align: start;
+            // font-size: 10px;
+            // font-weight: 55px;
+            
+           
+           
+            
+        }
+        .address{
+            text-align: start;
+            opacity: 100%;
+            text-transform: capitalize;
+            // font-size: 10px;
+            // font-weight: 55px;
+        }
+    }
+    &:after{
+       position: absolute;
+       width: 100%;
+        content:"";
+        left:0;
+        bottom: 35px;
+        height: 1px;
+        // padding-bottom: 10px;
+        background: $grey-primary;
+        opacity: 30%;
+                 
+    }
+    
+    .footer-bottom{
+        .copyright{
+            color: $grey-primary;
+        }
+        .social-icon-footer{
+            display: block;
+            float: right !important;
+            align-items: center;
+            justify-content: space-evenly;
+            >a{
+               color: $grey-primary; 
+            }
+        }
+    }
+}

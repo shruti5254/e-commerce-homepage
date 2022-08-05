@@ -1,0 +1,38 @@
+
+@mixin respond($break-point) {
+    @if ($break-point == iphone) {
+        @media (max-width: 414px) {
+            @content;
+
+        }
+    }
+    @if ($break-point == phone) {
+        @media (max-width: 576px) {
+            @content;
+        }
+    }
+
+    @if ($break-point == phone-landscape) {
+        @media (max-width: 780px) {
+            @content;
+        }
+    }
+
+    @if ($break-point == tab-portrait) {
+        @media (max-width: 900px) {
+            @content;
+        }
+    }
+
+    @if ($break-point == tab-landscape) {
+        @media (max-width: 1200px) {
+            @content;
+        }
+    }
+
+    @if ($break-point == big-desktop) {
+        @media (min-width: 1800px) {
+            @content;
+        }
+    } 
+}

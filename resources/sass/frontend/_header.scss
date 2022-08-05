@@ -1,0 +1,210 @@
+// @font-face {
+//     font-family: 'Avenir';
+//     src: url('../fonts/Avenir.eot?#iefix') format('embedded-opentype'),  url('../fonts/Avenir.woff') format('woff'), url('../fonts/Avenir.ttf')  format('truetype'), url('../fonts/Avenir.svg#Avenir') format('svg');
+// }
+
+
+
+// *{
+//     margin: 0;
+//     padding: 0;
+//     text-transform: capitalize;
+//     text-decoration: none;
+//     box-sizing: border-box;
+//     transition: all .2s;
+//     background-color: $body-bg-primary;
+//     font-family: "avenir"  Helvetica, sans-serif;
+// }
+body{
+    overflow-x: hidden;
+    // font-family: $-font-family;
+
+    
+    .header{
+    //    font-family: $-font-family;
+        .header-1{
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 100%;
+            width: 100% !important;
+            height: 16px;
+            margin: 5px auto; 
+            // font-family: $-font-family;
+            font-size: 12px;
+            color: $grey-primary;
+           
+
+            a {
+                color: $grey-primary;
+                text-decoration: none;
+            }
+            
+
+        
+            .float-left{
+            
+                float: left !important;
+                // padding-left: 30px;
+                justify-content: center;
+                margin-left: 0;
+                .contact{
+                    margin-right: 15px;
+                    
+                }
+                .social-icons{
+                    a{
+                        i{
+                            margin: 0 4px;
+                        }
+                    }
+
+                }
+                &:after{
+                    visibility: hidden;
+                }
+
+
+            }
+            .float-right{
+                float: right !important;
+                justify-content: center;
+                margin-right: 0;
+                a{
+                    margin: 0 9px;
+                }
+                &:after{
+                    visibility: hidden;
+                }
+            
+            
+            }
+            &:after{
+                position: absolute;
+                width: 100%;
+                content:"";
+                left:0;
+                bottom:-8px;
+                height: 1px;
+                // padding-bottom: 10px;
+                background: $grey-primary;
+                opacity: 30%;
+                
+            }
+        }
+        
+        .header-2{
+            padding-top: 8px;
+            a{
+                text-decoration: none;
+            }
+            .container-header-2{
+                // justify-content: space-between;
+                .row{
+                    @include respond (tab-portrait){
+                        display: flex;
+                    }
+                    @include respond (phone){
+                        display: flex;
+                        flex-direction: column;
+                    }
+                    .logo{
+                        @include respond (tab-portrait){
+                            float: left;
+                            font-size: 18px;
+                        }
+                        position: relative;
+                        text-align: end;
+                        // padding-top: 0;
+                        // padding-bottom: 0;
+                        color: $grey-primary;
+                        font-size: 20px;
+                        opacity: 70%;
+                    }
+                    .search-form{
+                        position: relative;
+                        display: flex;
+                        flex: 1;
+                            
+                        .form{
+                            width: 100%;
+                            font-size: 12px;
+                            align-items: center;
+                            // text-align: center;
+                            // border: 1px solid $grey-primary;
+                            #search{
+                                @include respond (tab-portrait){
+                                    width: 88%;
+                                }
+                                height: 2rem;
+                                width: 90%;
+                                border-radius:4px;
+                                border: 1.5px solid $grey-primary;
+                                opacity: 30%;
+
+                            }
+                            label{
+                                @include respond (tab-portrait){
+                                    width: 12%;
+                                    font-size: 15px;
+                                }
+                                position: absolute;
+                                background-color: $nav-blue;
+                                height: 1.89rem;
+                                width: 9.5%;
+                                margin-left: 0;
+                                margin-top: .5px;
+                                color: #FFFFFF;
+                                align-items: center;
+                                font-size: 18px;
+                                border-radius: 4px;
+                                // z-index: 1;
+                                cursor: pointer;
+                                &:before{
+                                    position: absolute;
+                                    padding: 5px 0 5px 15px;
+                                }
+                            }
+                        }
+                    }
+                    .shopping-bags{
+                       @include respond (tab-portrait){
+                            padding: 0;
+                            float: right;
+                            
+                        }
+                        // align-items: center;
+                        text-align: start;
+                        a{ 
+                            @include respond (tab-portrait){
+                                font-size: 13px;
+                            }
+                            color: $grey-primary;
+                            padding: 2px;
+                            font-size: 13px;
+                            i{
+                                @include respond (tab-portrait){
+                                    font-size: 17px;
+                                }
+                                margin: 2px;
+                                font-size: 16px;
+                            }
+                        }
+                    }
+                    
+                }
+
+            }
+        }
+        
+       
+                
+           
+        
+    
+        
+        
+    }
+}
+    
