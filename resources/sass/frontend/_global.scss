@@ -5,7 +5,11 @@
 .alert.header-message {
     border-radius: 0 !important;
 }
+//fonts
 
+// @font-family{
+//     src: url("\avenir_ff");
+// }
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +17,6 @@
     text-decoration: none;
     box-sizing: border-box;
     transition: all .2s;
-    font-family: "avenir"  Helvetica, sans-serif;
+    // font-family: "Avenir"  Helvetica, sans-serif;
     
 }

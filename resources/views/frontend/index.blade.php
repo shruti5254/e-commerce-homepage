@@ -1,6 +1,8 @@
 @extends('frontend.layouts.app')
 
 @push('after-styles')
+
+
 <link href="{{ asset('css/owl.carousel.min.css') }}" rel="stylesheet"/>
 <link href="{{ asset('css/owl.theme.default.min.css') }}" rel="stylesheet"/>
 @endpush
@@ -612,13 +614,13 @@
         
         <div class="section section-products">
             <div class="container">
-                <div class="row row-cols-2  row-cols-md-3  row-cols-lg-5  g-sm-5 g-md-5  g-lg-3">
+                <div class="row row-cols-2  row-cols-md-3  row-cols-lg-5  g-sm-5 g-md-5  g-lg-4">
                     <div class="col" >
                         <div class=" section-stuffs">
                         <a href="#" class="">
                             <div class="top">
                                 <!-- <div class="sale">sale </div> -->
-                                <div class=" p-3 image-1">
+                                <div class=" px-3 pt-3 pb-0 image-1">
                                     <div class="sale">sale </div>
                                     <img src="Images/img-1.png" alt="" class="img-fluid" >
                                 </div>
@@ -642,7 +644,7 @@
                         <a href="#" class="">
                             <div class="top">
                                 <!-- <div class="sale">sale</div> -->
-                                <div class=" p-3 image-1">
+                                <div class=" px-3 pt-3 pb-0 image-1">
                                 <div class="sale">sale </div>
                                     <img src="Images/img-2.png" alt="" class="img-fluid" >
                                 </div>
@@ -664,7 +666,7 @@
                         <a href="#" class="">
                             <div class="top">
                                 <!-- <div class="sale">sale</div> -->
-                                <div class=" p-3 image-1">
+                                <div class=" px-3 pt-3 pb-0 image-1">
                                     <div class="sale">sale </div>
                                     <img src="Images/img-3.png" alt="" class="img-fluid" >
                                 </div>
@@ -686,7 +688,7 @@
                         <a href="#" class="">
                             <div class="top">
                                 <!-- <div class="sale">sale</div> -->
-                                <div class=" p-3 image-1">
+                                <div class="px-3 pt-3 pb-0 image-1">
                                     <div class="sale">sale </div>
                                     <img src="Images/img-4.png" alt="" class="img-fluid" >
                                 </div>
@@ -708,7 +710,7 @@
                         <a href="#" class="">
                             <div class="top">
                                 <!-- <div class="sale">sale</div> -->
-                                <div class=" p-3 image-1">
+                                <div class="px-3 pt-3 pb-0 image-1">
                                     <div class="sale">sale </div>
                                     <img src="Images/img-5.png" alt="" class="img-fluid" >
                                 </div>
@@ -750,7 +752,7 @@
 
         <div class="section section-products">
             <div class="container">
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-sm-5 g-md-5 g-lg-3">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-sm-5 g-md-5 g-lg-4">
                     <!--first row-->
                     <!-- <div id="first row">  -->
                         <div class="col">
@@ -758,7 +760,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-6.png" alt="" class="img-fluid" >
                                     </div>
@@ -782,7 +784,7 @@
                             
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-7.png" alt="" class="img-fluid" >
                                     </div>
@@ -803,7 +805,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-8.png" alt="" class="img-fluid" >
                                     </div>
@@ -824,7 +826,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class=" px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-9.png" alt="" class="img-fluid" >
                                     </div>
@@ -845,7 +847,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-10.png" alt="" class="img-fluid" >
                                     </div>
@@ -872,7 +874,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-11.png" alt="" class="img-fluid" >
                                     </div>
@@ -893,7 +895,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-12.png" alt="" class="img-fluid" >
                                     </div>
@@ -914,7 +916,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-13.png" alt="" class="img-fluid" >
                                     </div>
@@ -935,7 +937,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-14.png" alt="" class="img-fluid" >
                                     </div>
@@ -956,7 +958,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-15.png" alt="" class="img-fluid" >
                                     </div>
@@ -1001,7 +1003,7 @@
 
         </div>
         <div class="container">
-            <div class="row row-cols row-cols-lg-8  g-2 g-lg-3 banner-below pb-5 mb-5">   
+            <div class="row row-cols row-cols-lg-8  g-2  g-lg-3 pb-5 mb-5 banner-below">   
                 <!-- <div class=" row banner-below  pb-5 mb-5"> -->
                     <div class="col">
                         <div class="banner-below-img"><a href="#" class="" alt="" class="img-fluid"><img src="Images/banner-below-1.png"></a></div>
@@ -1042,7 +1044,7 @@
         </div>
         <div class="section section-products">
             <div class="container">
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-sm-5 g-md-5 g-lg-3">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-sm-5 g-md-5 g-lg-4">
                     <!--first row-->
                     <!-- <div id="first row">  -->
                         <div class="col">
@@ -1050,7 +1052,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-16.png" alt="" class="img-fluid" >
                                     </div>
@@ -1072,7 +1074,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-17.png" alt="" class="img-fluid" >
                                     </div>
@@ -1093,7 +1095,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-18.png" alt="" class="img-fluid" >
                                     </div>
@@ -1114,7 +1116,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-19.png" alt="" class="img-fluid" >
                                     </div>
@@ -1135,7 +1137,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-20.png" alt="" class="img-fluid" >
                                     </div>
@@ -1158,7 +1160,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-21.png" alt="" class="img-fluid" >
                                     </div>
@@ -1179,7 +1181,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-22.png" alt="" class="img-fluid" >
                                     </div>
@@ -1200,7 +1202,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-23.png" alt="" class="img-fluid" >
                                     </div>
@@ -1221,7 +1223,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-24.png" alt="" class="img-fluid" >
                                     </div>
@@ -1242,7 +1244,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-25.png" alt="" class="img-fluid" >
                                     </div>
@@ -1263,12 +1265,12 @@
         </div>    
         <div class="container container-middle-banner px-3 py-5">
             <div class="row g-2 g-lg-3">
-                <div class="col-2 ">
-                    <div class="p-0 banner-left">
+                <div class="col-3 ">
+                    <div class="ps-3  me-5  banner-left">
                         <img src="Images/img-15.png" alt="" class="img-fluid">
                     </div>
                 </div>
-                <div class="col-8 ">
+                <div class="col-6">
                     <div class="p-0 middle-banner">
                         <img src="Images/middle-banner.png" alt="" class="img-fluid">
                         <div class="shop">Explore the entire shop</div>
@@ -1276,8 +1278,8 @@
                         <div class="word">Enjoy !</div>
                     </div>
                 </div>
-                <div class="col-2 ">
-                    <div class="p-0 banner-right">
+                <div class="col-3">
+                    <div class="ps-4 pt-2 pb-5 pe-2 ms-5 banner-right">
                         <img src="Images/middle-banner-right.png" alt="" class="img-fluid">
                     </div>
                 </div>
@@ -1292,7 +1294,7 @@
         </div>
         <div class="section section-products">
             <div class="container">
-                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-sm-5 g-md-5 g-lg-3">
+                <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-sm-5 g-md-5 g-lg-4">
                     <!--first row-->
                     <!-- <div id="first row">  -->
                         <div class="col">
@@ -1300,7 +1302,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-26.png" alt="" class="img-fluid" >
                                     </div>
@@ -1322,7 +1324,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-27.png" alt="" class="img-fluid" >
                                     </div>
@@ -1343,7 +1345,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-28.png" alt="" class="img-fluid" >
                                     </div>
@@ -1364,7 +1366,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-29.png" alt="" class="img-fluid" >
                                     </div>
@@ -1385,7 +1387,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-30.png" alt="" class="img-fluid" >
                                     </div>
@@ -1408,7 +1410,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-31.png" alt="" class="img-fluid" >
                                     </div>
@@ -1429,7 +1431,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-32.png" alt="" class="img-fluid" >
                                     </div>
@@ -1450,7 +1452,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-33.png" alt="" class="img-fluid" >
                                     </div>
@@ -1471,7 +1473,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-34.png" alt="" class="img-fluid" >
                                     </div>
@@ -1492,7 +1494,7 @@
                             <a href="#" class="">
                                 <div class="top">
                                     <!-- <div class="sale">sale</div> -->
-                                    <div class=" p-3 image-1">
+                                    <div class="px-3 pt-3 pb-0 image-1">
                                         <div class="sale">sale </div>
                                         <img src="Images/img-35.png" alt="" class="img-fluid" >
                                     </div>

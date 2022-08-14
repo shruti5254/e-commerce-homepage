@@ -21,10 +21,10 @@
         margin:  0.5rem;
         height: 16px;
         cursor: pointer;
-        @include respond (tab-portrait){
-            position: unset;
-        }
-        @include respond (tab-landscape) {
+        // @include respond (tab-portrait){
+        //     position: unset;
+        // }
+        @include respond (phone-landscape) {
             position: unset;
         }
                  
@@ -37,16 +37,13 @@
             display: flex;
             transition: .4s;
             cursor: pointer;
-            @include respond(tab-landscape){
+            @include respond(phone-landscape){
                 transform: translateX(-280%);
                 position: fixed;
                 width: 100%;
                 display: block;
-                // border: none;
-                // text-align: center;
                 text-align: left;
                 left:0;
-                // float: right;
                 transition: .3sec ease;
                 z-index: 10;
                 
@@ -64,7 +61,7 @@
                     width: 100%;
                     left: 0;
                     text-align: center;
-                    background-color:  $nav-blue;
+                    background-color: #D9E4EC;
                     opacity: 0;
                     visibility: hidden;
                     transition: 0.25s;
@@ -84,7 +81,7 @@
                         
                         h6{
                             font-weight: bold;
-                            color: white;
+                            color: $nav-blue;
                             padding: 5px;
                             text-align: center;
                             margin: 0 15px 10px 0;
@@ -101,7 +98,7 @@
                                 padding: 3px;
                                 
                                 a{
-                                    color: $body-bg-primary;
+                                    color: $grey-primary;
                                     text-transform: capitalize;
                                     text-align: center;
                                     cursor: pointer;
@@ -117,18 +114,13 @@
                     }
                 }
                 
-                @include respond(tab-landscape){
+                @include respond(phone-landscape){
                     display: block;
                     top: 0;
                 }
-                // .personal-hygine{
-                //     &:hover >.megamenu{
-                //         opacity: 1;
-                //         visibility: visible;
-                //     }
-                // }
+                
                 >.personal-hygine{
-                    @include respond(tab-portrait){
+                    @include respond(phone-landscape){
                         display: block;
                         padding: 10px;
                         font-size: 17px;
@@ -144,8 +136,9 @@
                     text-transform: capitalize; 
                     
                     &:hover{
-                        background-color: #ECF2E7;
-                        color: $black-1;
+                        background-color: #D9E4EC;
+                        color: $nav-blue;
+                        // z-index: 999;
                     }
                     
                 }
@@ -174,13 +167,13 @@
         } 
         .hide-content{
             display: none;
-            @include respond(tab-landscape){
+            @include respond(phone-landscape){
                 display: block;
                 // padding-top: 20px;
             }
         
             .bar{
-                @include respond(tab-landscape){
+                @include respond(phone-landscape){
                     display: block;
                     height: 5px;
                     width: 50px;

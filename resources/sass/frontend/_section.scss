@@ -39,9 +39,9 @@
                             height: 3px;
                             display: block;
                             position: absolute;
-                            bottom: 23px;
+                            bottom: 8px;
                             clip-path: ellipse(32% 38% at 33% 51%);
-                            left: 50%;
+                            left: 52%;
                             transform: translate(-50%);
                             background-color: $grey-primary;
                             opacity: 30%;
@@ -207,9 +207,9 @@
                             height: 3px;
                             display: block;
                             position: absolute;
-                            bottom: 23px;
+                            bottom: 8px;
                             clip-path: ellipse(32% 38% at 33% 51%);
-                            left: 50%;
+                            left: 52%;
                             transform: translate(-50%);
                             background-color: $grey-primary;
                             opacity: 30%;
@@ -417,6 +417,12 @@
                     margin-top: 20px;
                     align-items: center;
                     justify-content: space-evenly;
+
+                    // @media only screen and (max-width: 1000px){
+                    //     position: relative;
+                    //     display: flex;
+                    //     flex-direction: column;
+                    // }
                 
                     a{
                     // width: 
@@ -454,12 +460,14 @@
             box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
             img{
                 height: 192px;
+                // padding: 32px;
             }
         }
         .middle-banner{
             // width: 649px;
             height: 208px;
             position: relative;
+            margin: 0 -50px;
             box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
             img{
                 width: 100% !important;
@@ -511,6 +519,7 @@
             box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
             img{
                height: 192px;
+            //    padding: 32px;
             }
         }
                     
